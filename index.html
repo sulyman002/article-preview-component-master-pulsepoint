@@ -6,7 +6,31 @@
     <title>article-preview-component-master ~ pulsepoint</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
+<body class="bg-blue-200 flex justify-center items-center w-full h-screen">
+    <main class="w-[900px] h-[350px] bg-white flex rounded-lg">
+        <div class="w-[400px] bg-red-200 rounded-l-lg"><img class="h-full rounded-l-lg" src="/images/drawers.jpg" alt="drawer"></div>
+        
+        <div class="p-14 flex flex-col gap-4 w-[500px]">
+            <h1 class="text-xl font-bold text-gray-500">Shift the overall look and fell 
+                                                        by adding these wonderfull touches
+                                                        to furniture in your home</h1>
+            <p class="text-gray-400">Ever been in a room and felt like something was missing? 
+                                    perhaps it felt slightly bare and uninviting. I've got some
+                                    simple tips to help you make any room feel complete.
+            </p>
+            <div class="flex items-center justify-between">
+                <div class="flex gap-4">
+                    <div class="h-12 w-12 rounded-full bg-blue-300"><img class="rounded-full" src="/images/avatar-michelle.jpg" alt="michelle_img"></div>
+                    <div>
+                        <h1 class="font-semibold">Michelle Appleton</h1>
+                        <p class="text-gray-400">28 Jun 2020</p>
+                    </div>
+                </div>
+
+                <img class="p-3 popUp bg-blue-100 rounded-full cursor-pointer active:bg-gray-400 hover:bg-gray-600 text-white" src="/images/icon-share.svg" alt="share">
+            </div>
+        </div>
+    </main>
     
     <script src="script.js"></script>
 </body>
