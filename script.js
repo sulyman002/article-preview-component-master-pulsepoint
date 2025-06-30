@@ -6,6 +6,8 @@ const profile_container = document.querySelector('.profile_container');
 popUp.addEventListener('click', () => {
     show.classList.toggle('hidden');
     michelle_profile.classList.toggle('hidden');
+    profile_container.classList.toggle('bg-[#48556a]');
+    profile_container.classList.toggle('bg-white');
     
 
 
