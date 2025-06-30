@@ -1,37 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>article-preview-component-master ~ pulsepoint</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-blue-200 flex justify-center items-center w-full h-screen">
-    <main class="w-[900px] h-[350px] bg-white flex rounded-lg">
-        <div class="w-[400px] bg-red-200 rounded-l-lg"><img class="h-full rounded-l-lg" src="/images/drawers.jpg" alt="drawer"></div>
-        
-        <div class="p-14 flex flex-col gap-4 w-[500px]">
-            <h1 class="text-xl font-bold text-gray-500">Shift the overall look and fell 
-                                                        by adding these wonderfull touches
-                                                        to furniture in your home</h1>
-            <p class="text-gray-400">Ever been in a room and felt like something was missing? 
-                                    perhaps it felt slightly bare and uninviting. I've got some
-                                    simple tips to help you make any room feel complete.
-            </p>
-            <div class="flex items-center justify-between">
-                <div class="flex gap-4">
-                    <div class="h-12 w-12 rounded-full bg-blue-300"><img class="rounded-full" src="/images/avatar-michelle.jpg" alt="michelle_img"></div>
-                    <div>
-                        <h1 class="font-semibold">Michelle Appleton</h1>
-                        <p class="text-gray-400">28 Jun 2020</p>
-                    </div>
-                </div>
 
-                <img class="p-3 popUp bg-blue-100 rounded-full cursor-pointer active:bg-gray-400 hover:bg-gray-600 text-white" src="/images/icon-share.svg" alt="share">
-            </div>
+<body class="bg-blue-100 flex justify-center items-center w-full  h-screen shadow-lg">
+    <main
+        class="md:w-[900px] md:h-[350px] h-[700px] w-[400px] relative bg-white flex md:flex-row md:m-0 m-6 flex-col rounded-lg">
+        <div class="md:w-[400px] bg-red-9 md:rounded-l-lg rounded-t-lg"><img
+                class="md:h-full rounded-t-lg md:rounded-l-lg" src="/images/drawers.jpg" alt="drawer"></div>
+
+        <div
+            class="md:py-12 md:px-14 px-6 py-12  md:rounded-r-lg  h-full flex flex-col gap-4 md:w-[500px]">
+            <h1 class="text-xl font-bold text-gray-500">Shift the overall look and fell
+                by adding these wonderfull touches
+                to furniture in your home</h1>
+            <p class="text-gray-400">Ever been in a room and felt like something was missing?
+                perhaps it felt slightly bare and uninviting. I've got some
+                simple tips to help you make any room feel complete.
+            </p>
         </div>
+
+        <div class="profile_container flex items-center w-full p-4 justify-between mt-">
+            <div class="michelle_profile flex gap-4">
+                <div class="h-12 w-12 rounded-full bg-blue-300"><img class="rounded-full"
+                        src="/images/avatar-michelle.jpg" alt="michelle_img"></div>
+                <div>
+                    <h1 class="font-semibold">Michelle Appleton</h1>
+                    <p class="text-gray-400">28 Jun 2020</p>
+                </div>
+            </div>
+
+            <div class="show hidden flex gap-3 items-center">
+                <a href="" class="tracking-widest text-blue-200"><img src="" alt="">SHARE</a>
+                <a href=""><img src="/images/icon-facebook.svg" alt="facebook"></a>
+                <a href=""><img src="/images/icon-twitter.svg" alt="twitter"></a>
+                <a href=""><img src="/images/icon-pinterest.svg" alt="pinterest"></a>
+            </div>
+
+
+            <img class="p-3 popUp bg-blue-100 rounded-full cursor-pointer active:bg-gray-400 hover:bg-gray-600 text-white"
+                src="/images/icon-share.svg" alt="share">
+        </div>
+
+
+        <!-- <div class="  w-full p-4 flex bg-gray-600 justify-between rounded-b-lg md:absolute items-center">
+            
+            <div><img
+                    class="p-3  bg-blue-100 rounded-full cursor-pointer active:bg-gray-400 hover:bg-gray-600 text-white"
+                    src="/images/icon-share.svg" alt="share"></div>
+        </div> -->
+
+
     </main>
-    
+
     <script src="script.js"></script>
 </body>
+
 </html>
